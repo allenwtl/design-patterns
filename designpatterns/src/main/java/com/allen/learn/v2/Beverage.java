@@ -7,6 +7,9 @@ package com.allen.learn.v2;
  *  子类是菜单上的一种饮品
  *  可能是由一种或者多个调料组合而成
  *
+ *  当增加一种调料，就要增加新的字段，新的方法，新的饮品
+ *
+ *
  */
 public class Beverage {
 

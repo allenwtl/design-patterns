@@ -10,14 +10,20 @@ import com.allen.learn.v3.decorator.SoyDecorator;
 public class Client {
 
     public static void main(String[] args) {
-        Beverage beverage = new DarkRoast();
+//        Beverage beverage = new DarkRoast();
+//
+//        beverage = new MochaDecorator(beverage);
+//
+//        beverage = new SoyDecorator(beverage);
 
-        beverage = new MochaDecorator(beverage);
+//        System.out.println(beverage.getDescription());
+//        System.out.println(beverage.cost());
 
-        beverage = new SoyDecorator(beverage);
 
-        System.out.println(beverage.getDescription());
-        System.out.println(beverage.cost());
+        String str = null ;
+
+        str = str + "";
+        System.out.println(str);
 
     }
 
